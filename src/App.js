@@ -21,7 +21,7 @@ const App = () => {
       )
       .then((response) => {
         setMovies(response.data.results);
-        setPagesNumber(response.data.total_pages);
+        setPagesNumber(500);
         setPaginatedPage(response.data.page);
       });
   };

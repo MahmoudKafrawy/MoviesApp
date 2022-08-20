@@ -17,14 +17,14 @@ export const PaginationBar = ({ pagesNumber, getAllMovies, query, search, pagina
     <>
       <ReactPaginate
         breakLabel="..."
-        nextLabel="التالي >"
+        nextLabel=">"
         onPageChange={handlePageClick}
         pageRangeDisplayed={2}
         marginPagesDisplayed={2}
         pageCount={pageCount}
-        previousLabel="< السابق"
+        previousLabel="<"
         renderOnZeroPageCount={null}
-        containerClassName={"pagination d-flex justify-content-center align-items-center"}
+        containerClassName={"pagination d-flex justify-content-center align-items-center p-0"}
         pageClassName={"page-item"}
         pageLinkClassName={"page-link"}
         previousLinkClassName={"page-link ms-2"}

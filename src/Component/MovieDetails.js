@@ -10,7 +10,6 @@ const MovieDetails = () => {
     axios
       .get(`https://api.themoviedb.org/3/movie/${param.id}?api_key=ee47fe6c51d197ad03cd0ddbaedeab3e&language=en-US`)
       .then((res) => {
-        console.log(res);
         setMovie(res.data);
       });
   };
