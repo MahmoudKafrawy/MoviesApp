@@ -49,7 +49,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="parent">
       <Navbar search={search} paginatedPage={paginatedPage} />
       <Container>
         <BrowserRouter>
